@@ -1,0 +1,20 @@
+{
+    "name": "empaphy/polyphill-mbstring",
+    "description": "A metapackage that installs a mbstring polyfill if needed, and removes it if redundant.",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "keywords": ["compatibility", "polyfill", "portable", "shim", "mbstring"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/empaphy/polyphill-mbstring/issues"
+    },
+    "require": {
+        "symfony/polyfill-mbstring": "^1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "provide": {
+        "symfony/polyfill-mbstring": "*"
+    }
+}
